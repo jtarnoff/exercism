@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HandshakeCalculatorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-08-28T03:36:26" hostname="MSI" time="0.119">
+  <properties/>
+  <testcase name="testReversingASingleActionYieldsTheSameAction" classname="HandshakeCalculatorTest" time="0.067"/>
+  <testcase name="testThatInput1YieldsAWink" classname="HandshakeCalculatorTest" time="0.0"/>
+  <testcase name="testReversingNoActionsYieldsNoActions" classname="HandshakeCalculatorTest" time="0.003"/>
+  <testcase name="testThatInput8YieldsAJump" classname="HandshakeCalculatorTest" time="0.0"/>
+  <testcase name="testThatInput4YieldsACloseYourEyes" classname="HandshakeCalculatorTest" time="0.001"/>
+  <testcase name="testInputThatYieldsAllActions" classname="HandshakeCalculatorTest" time="0.038"/>
+  <testcase name="testThatInput2YieldsADoubleBlink" classname="HandshakeCalculatorTest" time="0.001"/>
+  <testcase name="testInputThatYieldsAllActionsReversed" classname="HandshakeCalculatorTest" time="0.0"/>
+  <testcase name="testAnInputThatYieldsTwoReversedActions" classname="HandshakeCalculatorTest" time="0.0"/>
+  <testcase name="testAnInputThatYieldsTwoActions" classname="HandshakeCalculatorTest" time="0.0"/>
+  <testcase name="testThatInputWithLower5BitsNotSetYieldsNoActions" classname="HandshakeCalculatorTest" time="0.0"/>
+  <testcase name="testThatInput0YieldsNoActions" classname="HandshakeCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
