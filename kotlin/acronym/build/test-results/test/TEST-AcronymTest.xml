@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AcronymTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-09-24T02:27:33" hostname="MSI" time="0.162">
+  <properties/>
+  <testcase name="hyphen is ignored" classname="AcronymTest" time="0.153"/>
+  <testcase name="uppercased word at the start" classname="AcronymTest" time="0.001"/>
+  <testcase name="underscore emphasis is ignored" classname="AcronymTest" time="0.001"/>
+  <testcase name="punctuation is ignored" classname="AcronymTest" time="0.001"/>
+  <testcase name="lots of words" classname="AcronymTest" time="0.001"/>
+  <testcase name="apostrophe is ignored" classname="AcronymTest" time="0.0"/>
+  <testcase name="capitalized words" classname="AcronymTest" time="0.0"/>
+  <testcase name="lowercase word in the middle" classname="AcronymTest" time="0.001"/>
+  <testcase name="consecutive delimiters" classname="AcronymTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
