@@ -1,0 +1,89 @@
+it: A
+it.length: 1
+it: 1
+it.length: 1
+numRows: 1
+&output: [Ljava.lang.String;@3a52dba3
+it: Single line.
+it.length: 12
+numRows: 12
+&output: [Ljava.lang.String;@17f7cd29
+it: A1
+it.length: 2
+numRows: 2
+&output: [Ljava.lang.String;@71e9ddb4
+it: The first line.
+it.length: 15
+it: The second line.
+it.length: 16
+numRows: 16
+&output: [Ljava.lang.String;@394df057
+	it: ABC
+it.length: 3
+	it: 123
+it.length: 3
+numRows: 3
+&output: [Ljava.lang.String;@4961f6af
+it: HEART
+it.length: 5
+it: EMBER
+it.length: 5
+it: ABUSE
+it.length: 5
+it: RESIN
+it.length: 5
+it: TREND
+it.length: 5
+numRows: 5
+&output: [Ljava.lang.String;@5aebe890
+it: The fourth line.
+it.length: 16
+it: The fifth line.
+it.length: 15
+numRows: 16
+&output: [Ljava.lang.String;@65d09a04
+
+it: FRACTURE
+
+it.length: 8
+
+it: OUTLINED
+
+it.length: 8
+
+it: BLOOMING
+
+it.length: 8
+
+it: SEPTETTE
+
+it.length: 8
+
+numRows: 8
+
+&output: [Ljava.lang.String;@399c4be1
+it: The longest line.
+it.length: 17
+it: A long line.
+it.length: 12
+it: A longer line.
+it.length: 14
+it: A line.
+it.length: 7
+numRows: 17
+&output: [Ljava.lang.String;@291caca8
+it: T
+it.length: 1
+it: EE
+it.length: 2
+	it: AAA
+it.length: 3
+
+it: SSSS
+it.length: 4
+it: EEEEE
+it.length: 5
+it: RRRRRR
+it.length: 6
+numRows: 6
+&output: [Ljava.lang.String;@385e9564
