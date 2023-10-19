@@ -1,0 +1,75 @@
+input.isQuestion: false
+input.isYelling: true
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: true
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+	input.isQuestion: false
+	input.isYelling: false
+	input.isSilence: true
+
+input.isQuestion: false
+
+input.isYelling: false
+
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: true
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: true
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: true
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: true
+input.isQuestion: false
+input.isYelling: true
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: true
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: false
+input.isYelling: false
+input.isSilence: false
+input.isQuestion: true
+input.isYelling: false
+input.isSilence: false
