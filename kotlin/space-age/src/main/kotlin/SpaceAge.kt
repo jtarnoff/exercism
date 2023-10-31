@@ -1,13 +1,14 @@
-class SpaceAge {
+class SpaceAge(val seconds: Int) {
 
-    // TODO: Implement proper constructor
+    val EARTH_YEAR_IN_SECONDS = 31557600.toDouble()
+    fun onPlanet(earthYears: Double): Double { return (seconds / EARTH_YEAR_IN_SECONDS) / earthYears }
 
-    fun onEarth(): Double = TODO("Implement this function to complete the task")
-    fun onMercury(): Double = TODO("Implement this function to complete the task")
-    fun onVenus(): Double = TODO("Implement this function to complete the task")
-    fun onMars(): Double = TODO("Implement this function to complete the task")
-    fun onJupiter(): Double = TODO("Implement this function to complete the task")
-    fun onSaturn(): Double = TODO("Implement this function to complete the task")
-    fun onUranus(): Double = TODO("Implement this function to complete the task")
-    fun onNeptune(): Double = TODO("Implement this function to complete the task")
+    fun onEarth(): Double = onPlanet(1.0)
+    fun onMercury(): Double = onPlanet(0.2408467)
+    fun onVenus(): Double = onPlanet(0.61519726)
+    fun onMars(): Double = onPlanet(1.8808158)
+    fun onJupiter(): Double = onPlanet(11.862615)
+    fun onSaturn(): Double = onPlanet(29.447498)
+    fun onUranus(): Double = onPlanet(84.016846)
+    fun onNeptune(): Double = onPlanet(164.79132)
 }
