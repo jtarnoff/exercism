@@ -1,0 +1,32 @@
+	size: 0
+r: -1
+c: 0
+
+size: 54
+r: 6
+c: 7
+UchunkedList: [Ifmanwa, smeantt, ostayon, thegrou, ndgodwo, uldhave, givenus, roots]
+	size: 8
+r: 2
+c: 3
+chunkedList: [Chi, llo, ut]
+	size: 1
+r: 0
+c: 1
+chunkedList: [1]
+invertedList: [1]
+	size: 1
+r: 0
+c: 1
+chunkedList: [A]
+invertedList: [a]
+	size: 9
+r: 2
+c: 3
+chunkedList: [Thi, sis, fun]
+invertedList: [tsf, hiu, isn]
+	size: 1
+r: 0
+c: 1
+chunkedList: [b]
+invertedList: [b]
