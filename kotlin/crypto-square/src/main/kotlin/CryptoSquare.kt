@@ -4,16 +4,18 @@ import kotlin.math.sqrt
 object CryptoSquare {
 
     fun ciphertext(plaintext: String): String {
-        val stripped = plaintext.filter { it.isLetter() || it.isDigit() }
+        val stripped = plaintext.filter { it.isLetter() || it.isDigit() }.lowercase()
         val size = stripped.length
+
+        if (stripped.isEmpty()) return ""
 
         // determine number of rows/cols
         // x*r + y*c = stripped.length
         // c >= r
         // c - r >= 1
 
-        val r = sqrt(size.toDouble()).roundToInt() - 1
-        val c = sqrt(size.toDouble()).roundToInt()
+        val r = sqrt(size.toDouble()).roundToInt()
+        val c = sqrt(size.toDouble()).roundToInt() + 1
         println("size: $size")
         println("r: $r")
         println("c: $c")
@@ -21,20 +23,18 @@ object CryptoSquare {
         val chunkedList = stripped.chunked(c)
         println("chunkedList: $chunkedList")
 
-        val invertedList = chunkedList.mapIndexed { index, _ ->
-            chunkedList.fold("") { acc, s -> acc + s[index].lowercase() }
+//        val invertedList = chunkedList.mapIndexed { index, _ ->
+        val invertedList = (0..chunkedList.maxOf { it.length }).map { index ->
+            chunkedList.fold("") { acc, s ->
+                if (index < s.length) {
+                    acc + s[index]
+                } else {
+                    acc + ' '
+                }
+            }
         }
+
         println("invertedList: $invertedList")
-
-//        (1..invertedList.size).forEachIndexed { index, str ->
-//            invertedList.mapIndexed()
-//        }
-
-//        val newList = invertedList.mapIndexed { index, str ->
-//            invertedList.fold("") { acc, str ->
-//                 acc + str[index]
-//            }
-//        }
 
         return invertedList.joinToString(" ")
     }
