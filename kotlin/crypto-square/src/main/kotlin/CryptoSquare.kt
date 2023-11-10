@@ -9,22 +9,14 @@ object CryptoSquare {
 
         if (stripped.isEmpty()) return ""
 
-        // determine number of rows/cols
-        // x*r + y*c = stripped.length
-        // c >= r
-        // c - r >= 1
-
         val r = sqrt(size.toDouble()).roundToInt()
-        val c = sqrt(size.toDouble()).roundToInt() + 1
-        println("size: $size")
-        println("r: $r")
-        println("c: $c")
+        var c = r
+        if (r * r < stripped.length) {
+            c += 1
+        }
 
         val chunkedList = stripped.chunked(c)
-        println("chunkedList: $chunkedList")
-
-//        val invertedList = chunkedList.mapIndexed { index, _ ->
-        val invertedList = (0..chunkedList.maxOf { it.length }).map { index ->
+        return (0 until chunkedList.maxOf { it.length }).joinToString(" ") { index ->
             chunkedList.fold("") { acc, s ->
                 if (index < s.length) {
                     acc + s[index]
@@ -33,10 +25,6 @@ object CryptoSquare {
                 }
             }
         }
-
-        println("invertedList: $invertedList")
-
-        return invertedList.joinToString(" ")
     }
 
 }
