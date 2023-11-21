@@ -1,0 +1,174 @@
+intervals=mAMMMmm
+lastNote=G
+usesSharps=true
+in step list - lastNote=G
+in step list - lastNote=G#
+in step list - lastNote=B
+in step list - lastNote=C#
+in step list - lastNote=D#
+in step list - lastNote=F
+in step list - lastNote=F#
+[G, G#, B, C#, D#, F, F#]
+intervals=MMMmMMm
+lastNote=A
+usesSharps=false
+in step list - lastNote=A
+in step list - lastNote=B
+in step list - lastNote=Db
+in step list - lastNote=Eb
+in step list - lastNote=E
+in step list - lastNote=Gb
+in step list - lastNote=Ab
+[A, B, Db, Eb, E, Gb, Ab]
+intervals=MMmMMmM
+lastNote=Eb
+usesSharps=false
+in step list - lastNote=Eb
+in step list - lastNote=F
+in step list - lastNote=G
+in step list - lastNote=Ab
+in step list - lastNote=Bb
+in step list - lastNote=C
+in step list - lastNote=Db
+[Eb, F, G, Ab, Bb, C, Db]
+intervals=MMAMA
+lastNote=A
+usesSharps=true
+in step list - lastNote=A
+in step list - lastNote=B
+in step list - lastNote=C#
+in step list - lastNote=E
+in step list - lastNote=F#
+[A, B, C#, E, F#]
+intervals=MMMMMM
+lastNote=Db
+usesSharps=false
+in step list - lastNote=Db
+in step list - lastNote=Eb
+in step list - lastNote=F
+in step list - lastNote=G
+in step list - lastNote=A
+in step list - lastNote=B
+[Db, Eb, F, G, A, B]
+intervals=mMMmMMM
+lastNote=G
+usesSharps=false
+in step list - lastNote=G
+in step list - lastNote=Ab
+in step list - lastNote=Bb
+in step list - lastNote=C
+in step list - lastNote=Db
+in step list - lastNote=Eb
+in step list - lastNote=F
+[G, Ab, Bb, C, Db, Eb, F]
+intervals=MmMMmMM
+lastNote=F#
+usesSharps=true
+in step list - lastNote=F#
+in step list - lastNote=G#
+in step list - lastNote=A
+in step list - lastNote=B
+in step list - lastNote=C#
+in step list - lastNote=D
+in step list - lastNote=E
+[F#, G#, A, B, C#, D, E]
+	intervals=MMmMMMm
+	lastNote=F
+	usesSharps=false
+	in step list - lastNote=F
+	in step list - lastNote=G
+	in step list - lastNote=A
+	in step list - lastNote=Bb
+	in step list - lastNote=C
+	in step list - lastNote=D
+	in step list - lastNote=E
+	[F, G, A, Bb, C, D, E]
+
+intervals=MmMMmMM
+
+lastNote=Bb
+
+usesSharps=false
+
+in step list - lastNote=Bb
+
+in step list - lastNote=C
+
+in step list - lastNote=Db
+
+in step list - lastNote=Eb
+
+in step list - lastNote=F
+
+in step list - lastNote=Gb
+
+in step list - lastNote=Ab
+
+[Bb, C, Db, Eb, F, Gb, Ab]
+intervals=MmMMmAm
+lastNote=D
+usesSharps=false
+in step list - lastNote=D
+in step list - lastNote=E
+in step list - lastNote=F
+in step list - lastNote=G
+in step list - lastNote=A
+in step list - lastNote=Bb
+in step list - lastNote=Db
+[D, E, F, G, A, Bb, Db]
+intervals=MmMmMmMm
+lastNote=C
+usesSharps=false
+in step list - lastNote=C
+in step list - lastNote=D
+in step list - lastNote=Eb
+in step list - lastNote=F
+in step list - lastNote=Gb
+in step list - lastNote=Ab
+in step list - lastNote=A
+in step list - lastNote=B
+[C, D, Eb, F, Gb, Ab, A, B]
+intervals=MMmMMMm
+lastNote=C
+usesSharps=false
+in step list - lastNote=C
+in step list - lastNote=D
+in step list - lastNote=E
+in step list - lastNote=F
+in step list - lastNote=G
+in step list - lastNote=A
+in step list - lastNote=B
+[C, D, E, F, G, A, B]
+intervals=mMMMmMM
+lastNote=E
+usesSharps=true
+in step list - lastNote=E
+in step list - lastNote=F
+in step list - lastNote=G
+in step list - lastNote=A
+in step list - lastNote=B
+in step list - lastNote=C
+in step list - lastNote=D
+[E, F, G, A, B, C, D]
+intervals=MMmMMMm
+lastNote=G
+usesSharps=true
+in step list - lastNote=G
+in step list - lastNote=A
+in step list - lastNote=B
+in step list - lastNote=C
+in step list - lastNote=D
+in step list - lastNote=E
+in step list - lastNote=F#
+[G, A, B, C, D, E, F#]
+intervals=MmMMMmM
+lastNote=D
+usesSharps=false
+in step list - lastNote=D
+in step list - lastNote=E
+in step list - lastNote=F
+in step list - lastNote=G
+in step list - lastNote=A
+in step list - lastNote=B
+in step list - lastNote=C
+[D, E, F, G, A, B, C]
