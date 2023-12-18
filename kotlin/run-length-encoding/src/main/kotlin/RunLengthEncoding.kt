@@ -1,28 +1,20 @@
 object RunLengthEncoding {
 
     fun encode(input: String): String {
-        val marker = '^'
         var counter = 0
 
         return input
             .mapIndexed { index, ch ->
-                if (input.isNextCharEqual(index)) marker else ch
-            }
-            .joinToString("")
-            .mapIndexed { index, ch ->
-                if (ch == marker) {
+                if (input.isNextCharEqual(index)) {
                     counter++
-                    ch
+                    ""
                 } else if (counter > 0) {
-                    val temp = (counter + 1).toString() + ch
-                    counter = 0
-                    temp
+                    "${counter + 1}$ch".also { counter = 0 }
                 } else {
                     ch
                 }
             }
             .joinToString("")
-            .filter { it != marker }
     }
 
     fun decode(input: String): String {
@@ -34,23 +26,17 @@ object RunLengthEncoding {
             .mapIndexed { index, ch ->
                 if (ch.isDigit() && input.isNextCharANumber(index)) {
                     holder += ch
-                    marker.toString()
+                    ""
                 } else if (ch.isDigit()) {
-                    val temp = holder + ch
-                    holder = ""
-                    temp
+                    (holder + ch).also { holder = "" }
                 } else {
                     ch.toString()
                 }
             }
-            .filter { it != marker.toString() }
             .also { listHolder = it }
             .mapIndexed { index, str ->
-                if (str.all { it.isDigit() }) {
-                    var temp = ""
-                    val next = listHolder[index + 1]
-                    repeat(str.toInt() - 1) { temp += next }
-                    temp
+                if (str.all { it.isDigit() } && str.isNotEmpty()) {
+                    str.replaceNumWithChars(listHolder[index + 1].first())
                 } else {
                     str
                 }
@@ -58,11 +44,12 @@ object RunLengthEncoding {
             .joinToString("")
     }
 
-    private fun String.isNextCharEqual(index: Int): Boolean {
-        return this.length > index + 1 && this[index + 1] == this[index]
-    }
+    private fun String.replaceNumWithChars(newChar: Char): String =
+        (1 until this.toInt()).map { newChar }.joinToString("")
 
-    private fun String.isNextCharANumber(index: Int): Boolean {
-        return this.length > index + 1 && this[index + 1].isDigit()
-    }
+    private fun String.isNextCharEqual(index: Int): Boolean =
+        this.length > index + 1 && this[index + 1] == this[index]
+
+    private fun String.isNextCharANumber(index: Int): Boolean =
+        this.length > index + 1 && this[index + 1].isDigit()
 }
